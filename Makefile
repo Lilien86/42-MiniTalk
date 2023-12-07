@@ -6,7 +6,7 @@ CFLAGS = -Wall -Wextra -Werror -I $(LIBFT)
 LDFLAGS = -L $(LIBFT) -lft
 
 EXECUTABLE = a.out
-SOURCE = main.c
+SOURCE = server.c
 
 all: $(EXECUTABLE)
 
